@@ -5,3 +5,29 @@
 #recipe {
   background-image: url("lab-assets/list-bg.png");
 }
+
+.listholder {
+  display: inline-block;
+  width: 47%;
+  vertical-align: top;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+}
+
+ul li {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 20px;
+  color: rgb(130, 130, 100);
+}
+
+#leftlist {
+    margin-left: 30px;
+    width: 40%;
+}
+
+#rightlist {
+  flex-wrap: wrap;
+}
