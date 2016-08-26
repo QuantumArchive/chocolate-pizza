@@ -1,0 +1,7 @@
+* {
+  outline: 1px dashed red;
+}
+
+#recipe {
+  background-image: url("lab-assets/list-bg.png");
+}
