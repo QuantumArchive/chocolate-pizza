@@ -14,18 +14,29 @@ h1.header-text1 {
   font-size: 24pt;
   padding-bottom: 0;
   color: #000;
+  margin: 0;
+  display: inline-block;
 }
 
 h1.recipe-title {
   font-family: 'Oswald', sans-serif;
   font-size: 36pt;
   color: #000;
+  margin: 0;
 }
 
 h2.header-text2 {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 8pt;
   color: #000;
+  margin: 0;
+  width: 150%;
+  text-align: left;
+}
+
+h3.header-text3 {
+  font-size: 14pt;
+  margin: 0;
 }
 
 caption.post-info {
@@ -38,8 +49,14 @@ hr.divider-bar {
   height: 10px;
   background-color: #888;
   margin-bottom: 50px;
+  clear: left;
 }
 
+p {
+  font-family:Garamond, "Times New Roman", serif;
+  text-indent: 2em;
+  color: #111;
+}
 
 #recipe {
   background-image: url("lab-assets/list-bg.png");
@@ -51,9 +68,32 @@ hr.divider-bar {
   vertical-align: top;
 }
 
+.headerleft {
+  float: left;
+}
+
+.headerright {
+  float: right;
+  vertical-align: middle;
+  margin-top: 0.5em;
+}
+
+.headerlogo {
+  float: left;
+  margin: 10px;
+}
+
 body {
   width: 80%;
   max-width: 800px;
+}
+
+#subtitleleft {
+  float:left;
+}
+
+#subtitleright {
+  float: right;
 }
 
 ul li {
@@ -69,4 +109,33 @@ ul li {
 
 #rightlist {
   flex-wrap: wrap;
+}
+
+#spacedimage {
+  margin-left: 0.6em;
+}
+
+footer {
+  clear: left;
+  text-align: center;
+}
+
+#footnote {
+  text-indent: 0;
+}
+
+#buttonright {
+  background-color:orange;
+  float: right;
+  text-shadow: none;
+  border: none;
+  box-shadow: none;
+  color: white;
+  width: 20%;
+  height: 60px;
+  font-size: 14pt;
+}
+
+.footcredit {
+  margin: 0;
 }
