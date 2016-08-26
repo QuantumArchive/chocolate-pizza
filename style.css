@@ -1,6 +1,45 @@
+@font-face {
+  font-family: 'Yellowtail', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  src: url( "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald:700|Yellowtail");
+}
+
 * {
   outline: 1px dashed red;
 }
+
+h1.header-text1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 24pt;
+  padding-bottom: 0;
+  color: #000;
+}
+
+h1.recipe-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36pt;
+  color: #000;
+}
+
+h2.header-text2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 8pt;
+  color: #000;
+}
+
+caption.post-info {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 10pt;
+  color: #444;
+}
+
+hr.divider-bar {
+  height: 10px;
+  background-color: #888;
+  margin-bottom: 50px;
+}
+
 
 #recipe {
   background-image: url("lab-assets/list-bg.png");
