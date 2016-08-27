@@ -6,7 +6,7 @@
 }
 
 * {
-  outline: 1px dashed red;
+
 }
 
 h1.header-text1 {
@@ -39,15 +39,16 @@ h3.header-text3 {
   margin: 0;
 }
 
-caption.post-info {
+caption.post-info, #subtitleleft, #subtitleright {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 10pt;
-  color: #444;
+  color: #aaa;
 }
 
 hr.divider-bar {
   height: 10px;
   background-color: #888;
+  margin-top: 30px;
   margin-bottom: 50px;
   clear: left;
 }
@@ -60,6 +61,9 @@ p {
 
 #recipe {
   background-image: url("lab-assets/list-bg.png");
+  max-width: 800px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .listholder {
@@ -86,6 +90,11 @@ p {
 body {
   width: 80%;
   max-width: 800px;
+  align-self: center;
+}
+
+img.chocolate-pizza {
+  max-width: 800px;
 }
 
 #subtitleleft {
@@ -100,6 +109,21 @@ ul li {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 20px;
   color: rgb(130, 130, 100);
+}
+
+p.footcredit {
+  color: #aaa;
+  font-size: 14px;
+}
+
+hr.footer-bar {
+	border-top: 1px solid #aaa;
+	text-align: center;
+}
+
+
+img.small-logo {
+  margin-top: -50px;
 }
 
 #leftlist {
